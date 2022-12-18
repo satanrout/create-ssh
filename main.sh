@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-printf "Enter the First Number: "
+printf "Enter Your Email Address: "
 read -r a
 ssh-keygen -t ed25519 -C "$a"
 eval "$(ssh-agent -s)"
